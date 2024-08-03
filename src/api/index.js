@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: `http://localhost:5500/`,
+  baseURL: `https://youtubecloneserver-v69o.onrender.com/`,
 });
 
 API.interceptors.request.use((req) => {
